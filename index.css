@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#submit{
+    color: white;
+    background-image: radial-gradient(circle, rgba(72,85,99,1) 0%, rgba(41,50,60,1) 100%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.title {
+color: rgba(41,50,60,1);
+justify-content: center;
+align-items: center;
+display: flex;
+top: 0px;
+    
+}
+
+#presimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pres {
+    text-align: initial;
+    background-image: radial-gradient(circle, rgba(72,85,99,1) 0%, rgba(41,50,60,1) 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    }
+
+#presentation{
+    width: 15rem;
+    left: 2rem;
+    flex-wrap: wrap;
+}
+
+#this{
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    flex-wrap: wrap;
+    }
+#image img{
+    width: 200px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    flex-wrap: wrap;
+
+}
+
+.pres #contacts{
+    width:30rem;
+    height: 227px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+#contacts h3{
+    
+    text-align: left;
+    position: absolute;
+    left: 0pt;
+    top: 0pt;
+    left:300px;
+    flex-wrap: wrap;
+}
+
+#contacts ul{
+    
+    text-align: left;
+    position: absolute;
+    bottom: 35px;
+    left: 165px;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: square;
+}
+
+#contacts span{
+    font-weight: bolder;
+    text-decoration: underline ;
+}
+
+#skin{
+    
+    display: flex;
+}
+
+.skill{
+    color: white;
+    height: 10rem;
+    width: 30rem;
+    padding: 20px;
+    background-image: radial-gradient(circle, rgba(72,85,99,1) 0%, rgba(41,50,60,1) 100%);
+    border-radius: 5px;
+    justify-content: space-evenly;
+    margin: 10px;
+    flex-wrap: wrap;
+}
